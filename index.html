@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Damion&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65ff0b8d6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------hero------>
+
+    <header id="header">
+        <nav id="nav-bar">
+            <a href=""><img src="image/Globe logo.png" id="header-img"></a>
+            <div class="nav-linkk" id="navLinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a class="nav-link" href="#course">Course</a></li>
+                    <li><a class="nav-link" href="#campus">Campus</a></li>
+                    <li><a class="nav-link" href="#facilities">Facilities</a></li>
+                    <li><a class="nav-link" href="#cta">Contact</a></li>
+                    <li><a class="nav-link" href="#about">About us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Global Best Univesity</h1>
+            <p><strong>GLOBE UNIVERSITY</strong> contribute to the educational, economic, and sustainable development of
+                the local communities and the region by providing high-quality, internationally recognised academic
+                programmes, which focus on developing professional skills promoting employability</p>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <button id="submit"><a href="https://www.freecodecamp.com/email-submit)">Enroll now</a></button>
+        </form>
+    </header>
+
+
+    <nav id="nav-bar2">
+        <a href=""><img src="image/Globe logo.png"></a>
+        <div class="nav-linkk" id="navLinks">
+            <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#course">Course</a></li>
+                <li><a href="#campus">Campus</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#cta">Contact</a></li>
+                <li><a href="#about">About us</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!------course------>
+
+    <section class="course" id="course">
+        <h2>Course We Offer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Quisque porta mollis risus vel suscipit.
+            Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius.</p>
+
+        <div class="row">
+            <div class="course-col" id="green">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius. Maecenas ut ligula porttitor,
+                    blandit augue sed, fringilla nulla. Nullam sagittis cursus lacus eget ultrices.</p>
+            </div>
+            <div class="course-col" id="gold">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius. Maecenas ut ligula porttitor,
+                    blandit augue sed, fringilla nulla. Nullam sagittis cursus lacus eget ultrices.</p>
+            </div>
+            <div class="course-col" id="platinum">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius. Maecenas ut ligula porttitor,
+                    blandit augue sed, fringilla nulla. Nullam sagittis cursus lacus eget ultrices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!------campus------>
+
+    <section class="campus" id="campus">
+        <h2>Our Global Campus</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Quisque porta mollis risus vel suscipit.
+            Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius.</p>
+
+        <div class="row">
+            <div class="campus-col" id="cc1">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campus-col" id="cc2">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+            <div class="campus-col" id="cc3">
+                <div class="layer">
+                    <h3>San Fransisco</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!------facilities------>
+
+    <section class="facilities" id="facilities">
+        <h2>Our facilities</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.<br>
+            Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <div id="fc1"></div>
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius</p>
+            </div>
+            <div class="facilities-col">
+                <div id="fc2"></div>
+                <h3>Canteen</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius</p>
+            </div>
+            <div class="facilities-col">
+                <div id="fc3"></div>
+                <h3>Computer Lab</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!------video------>
+    <section class="video">
+        <iframe id="video" width="90%" height="720" src="https://www.youtube.com/embed/8G6cqdkyDXU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <!------testi------>
+
+    <section class="testi" id="testi">
+        <h2>What our student says</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.<br>
+            Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius</p>
+
+        <div class="row">
+            <div class="testi-col">
+                <div id="tc1"></div>
+                <h3>James Smitch</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius"</p>
+            </div>
+            <div class="testi-col">
+                <div id="tc2"></div>
+                <h3>Caroline Wedger</h3>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.
+                    Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius"</p>
+            </div>
+        </div>
+    </section>
+
+    <!------cta------>
+    <section class="cta" id="cta">
+        <h3>Enroll for now!<br>Feel free to contact us if you have something to ask</h3>
+        <button><a href="">CONTACT US</a></button>
+    </section>
+
+    <!------about------>
+    <section class="about" id="about">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta mollis risus vel suscipit.<br>
+            Vivamus iaculis nulla et tellus tempor, vel lacinia diam varius</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+</body>
+
+<!--
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-260px";
+    }
+
+</script>
+-->
+
+<script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("nav-bar2");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</html>

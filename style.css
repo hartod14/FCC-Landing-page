@@ -24,16 +24,22 @@ nav img {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    transition: 1s;
 }
 
 #nav-bar2 {
     padding: 10px;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(7, 16, 51);
-    transition: 1s;
+}
+
+#nav-bar2 .nav-linkk {
+    padding-right: 40px;
+}
+
+#nav-bar2 .fa-solid {
+    padding-right: 40px;
 }
 
 .nav-linkk {
@@ -321,6 +327,7 @@ h3 {
     opacity: 1;
 }
 
+
 @media (max-width: 700px) {
 
     .campus-col {
@@ -504,7 +511,6 @@ h3 {
 }
 
 .sticky {
-    padding: 0px !important;
     display: flex;
     position: fixed;
     width: 100%;

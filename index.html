@@ -45,7 +45,7 @@
     </header>
 
 
-    <nav id="nav-bar2">
+    <nav id="nav-bar2" class="hidden">
         <a href=""><img src="image/Globe logo.png"></a>
         <div class="nav-linkk" id="navLinks">
             <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
@@ -150,8 +150,8 @@
 
     <!------video------>
     <section class="video">
-        <iframe id="video" width="90%" height="720" src="https://www.youtube.com/embed/8G6cqdkyDXU" title="YouTube video player"
-            frameborder="0"
+        <iframe id="video" width="90%" height="720" src="https://www.youtube.com/embed/8G6cqdkyDXU"
+            title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </section>
@@ -224,16 +224,22 @@
 -->
 
 <script>
-    window.onscroll = function () { myFunction() };
+    window.onscroll = function () { myFunction(); console.log(document.body.scrollTop,) };
 
     var navbar = document.getElementById("nav-bar2");
+    // const scrollDemo = document.querySelector("body");
     var sticky = navbar.offsetTop;
 
+
     function myFunction() {
-        if (window.pageYOffset >= sticky) {
+        console.log(window.pageYOffset)
+        if (window.pageYOffset > 520) {
             navbar.classList.add("sticky")
+            navbar.style.display="flex"
+
         } else {
             navbar.classList.remove("sticky");
+            navbar.style.display="none"
         }
     }
 </script>
